@@ -24,6 +24,8 @@ h1 {
 
 .blue {
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 5px 5px 5px green;  /* The third value stands for blurRadius, that rounds or sharpens the edges.
+                                        The higher the value, the greater the blurring effect. */
 }
 
 .sleeve {
