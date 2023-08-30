@@ -20,12 +20,13 @@ h1 {
 
 .green {
     background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 5px 5px 5px green;  /* The third value stands for blurRadius, that rounds or sharpens the edges.
+                                       The higher the value, the greater the blurring effect. */
 }
 
 .blue {
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-    box-shadow: 5px 5px 5px green;  /* The third value stands for blurRadius, that rounds or sharpens the edges.
-                                        The higher the value, the greater the blurring effect. */
+    box-shadow: 0 0 0 5px blue;  /* The fourth value stands for spreadRadius, that expands the shadow further. */
 }
 
 .sleeve {
